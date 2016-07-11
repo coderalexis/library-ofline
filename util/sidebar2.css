@@ -1,0 +1,130 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.padding-box {
+  /*
+  padding: 1.2em 1.6em;
+  */
+
+}
+h1 {
+  margin: 0 0 0.5em;
+}
+.custom-button {
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+  padding: 0.6em 0.8em;
+  font-size: 1.3em;
+  -webkit-transition: border-color 0.3s ease, color 0.3s ease;
+  -moz-transition: border-color 0.3s ease, color 0.3s ease;
+  -o-transition: border-color 0.3s ease, color 0.3s ease;
+  -ms-transition: border-color 0.3s ease, color 0.3s ease;
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+.custom-button:hover {
+}
+.custom-button:active {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.main-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /*
+  background-color: rgb(41, 152, 200);
+*/
+  background-color: rgb(31, 107, 156);
+  width: 250px;
+  height: 100%;
+  overflow: hidden;
+}
+.main-sidebar .menu {
+  list-style: none;
+  margin: 0;
+  /*
+  padding: 1em;
+  */
+
+}
+.main-sidebar li {
+  /*
+  margin-bottom: 1em;
+  */
+  /*
+  background-color: rgb(95, 217, 213);
+  */
+  display: block;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+.main-sidebar li:last-child {
+  margin-bottom: 0;
+}
+.main-sidebar a {
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+  display: block;
+  padding: 10px;
+/*
+  background-color: rgb(41, 152, 200);
+*/
+}
+
+.main-sidebar a:hover {
+  background-color: rgb(43, 160, 217);
+  margin-left: .5em;
+  -webkit-transition: all 0.3s ease-in-out;
+ -moz-transition: all 0.3s ease-in-out;
+ -o-transition: all 0.3s ease-in-out;
+ transition: all 0.3s ease-in-out;
+
+
+}
+.main-content {
+  padding-left: 250px;
+}
+.main-sidebar,
+.main-content {
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.main.is-hidden .main-sidebar {
+  width: 0;
+  text-align: center;
+}
+.main.is-hidden .main-content {
+  padding-left: 0;
+}
+
+
+.foto{
+
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+.menu{
+  /*
+  text-align: center;
+  */
+  padding: 0px;
+}
+
+body{
+  margin: auto;
+}
