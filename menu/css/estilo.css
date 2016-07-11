@@ -1,0 +1,55 @@
+body{
+  margin: 0;
+}
+
+header{
+  width: 100%;
+  background: #148694;
+}
+
+
+#btn-menu{
+  display: none;
+}
+
+header label{
+  display: none;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
+
+header label:hover{
+  cursor:pointer;
+  background: rgba(0,0,0,0.3);
+}
+
+.menu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+
+}
+.menu li:hover{
+  background: rgba(0,0,0,0.3);
+}
+.menu li a{
+  display: block;
+  padding: 10px 15px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all .7s;
+}
+.menu li i{
+  margin-right: 20px;
+}
+
+.main-sidebar .menu li a:hover{
+  margin-left: 10px;
+}
+.main-content .menu li a:hover{
+
+}

@@ -1,0 +1,25 @@
+/* Estilo paginacion */
+div.pager {
+    margin: 1em 0;
+	text-align:center;
+}
+
+div.pager span {
+    display: inline-block;
+    width: 2.2em;
+    height: 2.2em;
+    line-height: 2.2em;
+    text-align: center;
+    cursor: pointer;
+    background: #A0A0A0;
+    color: #fff;
+    margin-right: 0.5em;
+}
+
+div.pager span.active {
+    background: #404040;
+}
+div.pager span:hover{
+	background:#777;
+}
+/* Fin de estilo paginacion */
