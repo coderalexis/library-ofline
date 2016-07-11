@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+}
+header {
+  width: 100%;
+  background: #148694;
+  position: fixed;
+  z-index: 1000;
+}
+header label {
+  display: none;
+  width: 30px;
+  padding: 10px;
+
+  height: 30px;
+}
+header label:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.menu li:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+.menu li a {
+  display: block;
+
+  padding: 10px 15px;
+
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all .5s;
+}
+.menu>ul>li>a{
+  font-size: 28px;
+  padding: 5px 15px;
+}
+
+
+.main-sidebar .menu li{
+  line-height: 38px;
+  padding: 0;
+
+}
+.main-sidebar .menu li i {
+  margin-right: 20px;
+}
+.main-sidebar .menu li a:hover {
+  margin-left: 20px;
+}
+
+.active {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.sangria{
+  margin-left: 20px;
+}
